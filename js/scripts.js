@@ -9,3 +9,11 @@ $("#carouselButton").click(function() {
         $("#carouselButton").children("span").addClass('fa-pause');
     }
 });
+$(document).ready(function() {
+    $("#login").click(function() {
+        $("#loginModal").modal();
+    });
+    $("#reserveBtn").click(function() {
+        $("#Reserve").modal();
+    });
+});
